@@ -1,0 +1,51 @@
+Below some info on the remote that is to be emulated
+source: https://community.acer.com/en/discussion/185319/h6510bd-projector-home-automation-usb-rs232-ir
+
+
+Had finaly some time to play with my arduino, here are the IR-codes to control the beamer. Maybe later some more information with RS-232 and arduino.
+
+ 
+
+[ACER H6510BD]
+[protocol compatible nec]
+[HEX-code, button remote]
+
+ 
+
+10C8E11E = POWER (on, off 2 times)
+10C851AE = 3D
+10C8F10E = HIDE
+10C806F9 = ASPECT RATIO
+10C8B14E = RESYNC
+10C831CE = SOURCE
+10C8D12E = ZOOM
+10C88679 = MUTE
+10C801FE = E (eco)
+
+
+10C841BE = UP , skew top
+10C8817E = RIGHT
+10C8A15E = DOWN, skew bottom
+10C8C13E = LEFT
+10C821DE = MENU
+
+ 
+
+10C85AA5 = 1 , prev, reverse
+10C8DA25 = 2 , play, pause, enter
+10C83AC5 = 3 , stop, back
+10C8BA45 = PgUp, next, forward
+10C8A659 = 4 , VGA
+10C86699 = 5 , COMPONENT
+10C8E619 = 6 , VIDEO
+10C87986 = PgDn, S-VIDEO
+10C87A85 = 7, SD/USB A
+10C852AD = 8, HDMI/DVI
+10C8D22D = 9, LAN/WIFI
+10C8FA05 = 0, USB B
+
+ 
+
+FFFFFFFF = repeated button return code (except for up,right,down,left)
+
+ 
